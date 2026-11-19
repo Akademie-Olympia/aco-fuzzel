@@ -7,7 +7,7 @@ Wayland-Anwendungsstarter und Menü-Frontend für die Desktop-Helfer.
 [Installation und Updates](https://arch-dotfiles.readthedocs.io/en/latest/arch-package/)
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/MichaelWeissDEV/dotfiles/main/install.sh | bash -s -- fuzzel
+curl -fsSL https://raw.githubusercontent.com/Akademie-Olympia/aco-dotfiles/main/install.sh | bash -s -- fuzzel
 ```
 
 Paket: `arch-dotfiles-fuzzel`. Einstellungen: `~/.config/fuzzel/fuzzel.ini`.
@@ -21,6 +21,6 @@ Schrift, Farben und Layout stehen in `~/.config/fuzzel/fuzzel.ini`. Fuzzel kann 
 
 Eigene Änderungen in der aktivierten Benutzerkopie bleiben bei der Synchronisierung erhalten; neue abweichende Vorgaben erscheinen als `.pacnew`. Siehe [Update und Wiederherstellung](https://arch-dotfiles.readthedocs.io/en/latest/verification/).
 
-[![Package safety](https://github.com/MichaelWeissDEV/fuzzel-config/actions/workflows/package.yml/badge.svg)](https://github.com/MichaelWeissDEV/fuzzel-config/actions/workflows/package.yml)
+[![Package safety](https://github.com/Akademie-Olympia/aco-fuzzel/actions/workflows/package.yml/badge.svg)](https://github.com/Akademie-Olympia/aco-fuzzel/actions/workflows/package.yml)
 
 [MIT-Lizenz](LICENSE).
