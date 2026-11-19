@@ -3,7 +3,7 @@
 Wayland-Anwendungsstarter und Menü-Frontend für die Desktop-Helfer.
 
 **[Dokumentation](https://aco-arch-dotfiles.readthedocs.io/en/latest/components/#fuzzel)** ·
-[Desktop-Keybindings](https://aco-arch-dotfiles.readthedocs.io/en/latest/hyprland/) ·
+[Desktop-Keybindings](https://aco-hypr.readthedocs.io/en/latest/keybindings/) ·
 [Installation und Updates](https://aco-arch-dotfiles.readthedocs.io/en/latest/arch-package/)
 
 ```bash
