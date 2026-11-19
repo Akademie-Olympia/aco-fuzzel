@@ -1,26 +1,28 @@
 # Fuzzel configuration
 
-Wayland-Anwendungsstarter und Menü-Frontend für die Desktop-Helfer.
+Wayland application launcher and shared dmenu frontend for the desktop helpers.
 
-**[Dokumentation](https://aco-arch-dotfiles.readthedocs.io/en/latest/components/#fuzzel)** ·
-[Desktop-Keybindings](https://aco-hypr.readthedocs.io/en/latest/keybindings/) ·
-[Installation und Updates](https://aco-arch-dotfiles.readthedocs.io/en/latest/arch-package/)
+**[Documentation](https://aco-docs.readthedocs.io/en/latest/fuzzel/)** ·
+[Guide](https://aco-docs.readthedocs.io/en/latest/fuzzel/guide/) ·
+[Design & dependencies](https://aco-docs.readthedocs.io/en/latest/fuzzel/design/) ·
+[Installation and updates](https://aco-arch-dotfiles.readthedocs.io/en/latest/arch-package/)
 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/Akademie-Olympia/aco-arch-dotfiles/main/install.sh | bash -s -- fuzzel
 ```
 
-Paket: `aco-arch-dotfiles-fuzzel`. Einstellungen: `~/.config/fuzzel/fuzzel.ini`.
-Quellen und `packaging/arch/PKGBUILD` werden hier unabhängig gepflegt. Nach einem
-Push auf `main` und erfolgreichem Registry-Build erfolgt das Update mit
-`sudo pacman -Syu`. Entwicklung und Builds: [PACKAGING.md](PACKAGING.md).
+Package: `aco-arch-dotfiles-fuzzel`. This standalone repository holds the development sources and the package recipe in
+`packaging/arch/PKGBUILD`. The documentation of this component lives in the shared
+[aco-docs](https://github.com/Akademie-Olympia/aco-docs) repository (one Read the Docs project for all small components).
+Push to `main`; after a successful registry build update with `sudo pacman -Syu`. Details and local builds: [PACKAGING.md](PACKAGING.md).
 
-### Anpassung und Bedienung
+### Customisation
 
-Schrift, Farben und Layout stehen in `~/.config/fuzzel/fuzzel.ini`. Fuzzel kann auch als Menü-Frontend mit `fuzzel --dmenu` verwendet werden. Die Optionen beschreibt `man fuzzel.ini`.
+Font, colours and layout live in `~/.config/fuzzel/fuzzel.ini`. Fuzzel doubles as the menu frontend through `fuzzel --dmenu`; `man fuzzel.ini` describes the options.
 
-Eigene Änderungen in der aktivierten Benutzerkopie bleiben bei der Synchronisierung erhalten; neue abweichende Vorgaben erscheinen als `.pacnew`. Siehe [Update und Wiederherstellung](https://aco-arch-dotfiles.readthedocs.io/en/latest/verification/).
+Your own changes in the activated user copy survive synchronisation; new differing defaults appear as `.pacnew`.
+See [update and recovery](https://aco-arch-dotfiles.readthedocs.io/en/latest/verification/).
 
 [![Package safety](https://github.com/Akademie-Olympia/aco-fuzzel/actions/workflows/package.yml/badge.svg)](https://github.com/Akademie-Olympia/aco-fuzzel/actions/workflows/package.yml)
 
-[MIT-Lizenz](LICENSE).
+[MIT licence](LICENSE).

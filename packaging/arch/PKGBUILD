@@ -6,7 +6,7 @@ pkgdesc='Fuzzel launcher configuration'
 arch=('any')
 url='https://github.com/Akademie-Olympia/aco-arch-dotfiles'
 license=('LicenseRef-arch-dotfiles-bundle')
-depends=('aco-arch-dotfiles-core>=0.3.0' 'fuzzel' 'ttf-jetbrains-mono-nerd')
+depends=('aco-arch-dotfiles-core>=0.3.0' 'fuzzel' 'ttf-jetbrains-mono-nerd' 'adwaita-icon-theme')
 optdepends=()
 replaces=('arch-dotfiles-fuzzel')
 conflicts=('arch-dotfiles-fuzzel')
